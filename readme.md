@@ -6,15 +6,21 @@ The Spaceman is a word game very similar to hangeman wher the user guesses a hid
 ## User Stories
 
 As a user, I want the ability to... 
-  . Be able to select a category that will start the game 
-  . click on the letter to input guess
-  . Letter to be blurred out after use 
-  . Astronaut to be built on every incorrect guess 
-  . Show how many incorrect guesses out of 6
-  . Display when i lose 
-  . Display when i won 
+  - Be able to select a category that will start the game
+  
+  - Click on the letter to input guess
+
+  - Letter to be blurred out after use 
+
+  - Astronaut to be built on every incorrect guess 
+
+  - Show how many incorrect guesses out of 6
+
+  - Display when i lose 
+
+  - Display when i won 
 ## Wireframes / Screenshots
-https://imgur.com/a/T833vF8
+![screenshot]https://imgur.com/a/T833vF8
 
 
 
