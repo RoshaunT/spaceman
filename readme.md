@@ -20,8 +20,8 @@ As a user, I want the ability to...
 
   - Display when i won 
 ## Wireframes / Screenshots
-![screenshot]https://imgur.com/a/T833vF8
 
+![screenshot](https://i.imgur.com/r0eMOfC.png)
 
 
 ## Psuedocode
