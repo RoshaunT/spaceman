@@ -5,16 +5,18 @@ The Spaceman is a word game very similar to hangeman wher the user guesses a hid
 
 ## User Stories
 
-```
 As a user, I want the ability to... 
-  
-
+  . Be able to select a category that will start the game 
+  . click on the letter to input guess
+  . Letter to be blurred out after use 
+  . Astronaut to be built on every incorrect guess 
+  . Show how many incorrect guesses out of 6
+  . Display when i lose 
+  . Display when i won 
 ## Wireframes / Screenshots
+https://imgur.com/a/T833vF8
 
-You can either replace `assets/images/wireframes1.png` with a link to your own image (perhaps uploaded on a site like imgur, or perhaps the photos exist in an img folder in your repo like our rock, paper, scissors photos did)
 
-![wireframes1](assets/images/wireframes1.png)
-![wireframes2](assets/images/wireframes2.png)
 
 ## Psuedocode
 
