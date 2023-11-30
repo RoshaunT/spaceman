@@ -28,15 +28,20 @@ As a user, I want the ability to...
 
 ```
 1) Define required constants
-
+  - categories 
+  - word choices
 2) Define required variables used to track the state of the game
-
+  - winener 
+  - choice of letter
+  - random word
 3) Store elements on the page that will be accessed in code more than once in variables to make code more concise, readable and performant.
-
+- alphabet
+-letters used 
+- 
 4) Upon loading the app should:
   4.1) Initialize the state variables
   4.2) Render those values to the page
-  4.3) Wait for the user to click a square
+  4.3) Wait for the user to select a category 
 
 5) Handle a player clicking a square
 
