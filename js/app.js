@@ -1,17 +1,19 @@
-
 const words = [
     ['apple', 'fruit'],
     ['banana', 'fruit'],
     ['cherry', 'fruit'],
+    ['mango', 'fruit'],
     ['carrot', 'vegetable'],
     ['broccoli', 'vegetable'],
     ['spinach', 'vegetable'],
+    ['lettuce' , 'vegetable'],
 ];
 
 let currentWord;
 let wordCategory;
 let guessedLetters = [];
 let incorrectGuesses = 0;
+let maxGuesses = 6;
 
 function newGame() {
     const randomIndex = Math.floor(Math.random() * words.length);
@@ -40,12 +42,17 @@ function updateDisplay() {
         }
     });
 
-    if (incorrectGuesses === 6) {
+    if (incorrectGuesses === maxGuesses) {
         statusDisplay.innerHTML = 'You lose!';
     } else if (wordDisplay.innerHTML === currentWord.split('').join(' ') + ' ') {
         statusDisplay.innerHTML = 'You win!';
     } else {
         statusDisplay.innerHTML = '';
+    }
+
+    // Disable the restart button after the maximum number of guesses
+    if (incorrectGuesses === maxGuesses) {
+        document.getElementById('restartButton').disabled = true;
     }
 }
 
@@ -65,4 +72,5 @@ function makeGuess() {
 }
 
 document.getElementById('letterButton').addEventListener('click', makeGuess);
+document.getElementById('restartButton').addEventListener('click', newGame);
 newGame();
