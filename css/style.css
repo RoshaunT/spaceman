@@ -8,10 +8,10 @@ body {
     text-align: center;
     background-color: lightskyblue;
 }
-#gameArea {
+#container {
   display: inline-block;
   border: 10px solid black;
-  padding: 40px;
+  padding: 50px;
 }
 #word {
     font-size: 50px;
