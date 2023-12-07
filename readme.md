@@ -1,4 +1,4 @@
-Spaceman 
+Spaceman/Hangman
 
 ## Overview
 This game is Hangman/Spaceman the user guesses a hidden word. Each time the user guesses incorrectly an astronaut is built.The user has 6 attempts to guess the word based on three categories.The three categories are fruits, contries and vegetables,the user must guess the word before the reaching a maximum of 6 incorrect guesses.
@@ -38,7 +38,6 @@ As a user, I want the ability to...
 4) Upon loading the app should:
   4.1) Initialize the state variables
   4.2) Render those values to the page
-  4.3) Wait for the user to select a category 
 
 5) Handle a player clicking a square
 
@@ -54,3 +53,6 @@ As a user, I want the ability to...
 - Add sounds 
 
 - Add letters on page 
+
+## Technologies Used
+- Javascript,Html,Css
