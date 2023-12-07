@@ -1,16 +1,13 @@
 Spaceman 
 
 ## Overview
-The Spaceman is a word game very similar to hangeman wher the user guesses a hidden word. Each time the user guesses incorrectly an astronaut is built.The user has 6 attempts to guess the word based on three categories.The three categories are fruits, contries and animals,the user must guess the word before the astronaut is built(with guesses still available).
+This game is Hangman/Spaceman the user guesses a hidden word. Each time the user guesses incorrectly an astronaut is built.The user has 6 attempts to guess the word based on three categories.The three categories are fruits, contries and vegetables,the user must guess the word before the reaching a maximum of 6 incorrect guesses.
 
 ## User Stories
 
 As a user, I want the ability to... 
-  - Be able to select a category that will start the game
-  
-  - Click on the letter to input guess
 
-  - Letter to be blurred out after use 
+  - Enter  letter to input guess
 
   - Astronaut to be built on every incorrect guess 
 
@@ -21,7 +18,7 @@ As a user, I want the ability to...
   - Display when i won 
 ## Wireframes / Screenshots
 
-![screenshot](https://i.imgur.com/r0eMOfC.png)
+![screenshot](https://i.imgur.com/9KElteS.png)
 
 
 ## Psuedocode
@@ -47,3 +44,13 @@ As a user, I want the ability to...
 
 6) Handle a player clicking the replay button
 ``` # spaceman
+
+## Future Improvements 
+
+- Add a functional spaceman
+
+- Create a more stylish and user friendly css
+
+- Add sounds 
+
+- Add letters on page 
